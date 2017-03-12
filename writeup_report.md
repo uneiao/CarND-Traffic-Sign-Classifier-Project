@@ -42,7 +42,7 @@ signs data set:
 The code for this step is contained in the [3] code cell of the IPython notebook.  
 
 Here is an exploratory visualization of the data set.
-For each class, it plots out the number of training samples together with
+For each class, it plotted out the number of training samples together with
 a training sample image.
 
 ![alt text][image1]
@@ -54,12 +54,14 @@ a training sample image.
 The code for this step is contained in the [4] code cell of the IPython notebook.
 
 As I browsed some images through the dataset, I found that quite a few of those images
-are dim. So I decided to apply CLAHE method to improve the contrast. 
-Firstly convert a image from RGB channels to HSV channels, secondly apply CLAHE method on
-the luminance channels, and then convert back to RGB channels.
+were dim. So I decided to improve the contrast. 
 
-But CLAHE would enhance the noise all the same, thus I use opencv bilateralFilter to
-smooth images.
+First step of the code converted a image from RGB channels to HSV channels,
+secondly applied [CLAHE](http://docs.opencv.org/3.1.0/d5/daf/tutorial_py_histogram_equalization.html)
+method on the luminance channels, and then converted back to RGB channels.
+
+But CLAHE would enhance the noise all the same, thus I used a [bilateralFilter](http://docs.opencv.org/3.1.0/d4/d86/group__imgproc__filter.html#ga9d7064d478c95d60003cf839430737ed)
+to smooth images.
 
 At last I normalized all the color channels into range from 0 to 1.
 
