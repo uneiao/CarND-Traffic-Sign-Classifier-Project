@@ -96,8 +96,6 @@ My final model which used LeNet structure, consisted of the following layers:
 | Fully connected		| 256 to 128 hidden layer     					|
 | RELU					|												|
 | Output				| 128 to number of class      					|
-|						|												|
-|						|												|
 
 
 ####4. Model Training.
@@ -148,6 +146,16 @@ AWS GPU server...
 ####1. Acquiring New Images
 
 Here are ten German traffic signs that I found on the web:
+![1](http://bicyclegermany.com/Images/Laws/Stop%20sign.jpg)
+![2](http://media.gettyimages.com/photos/german-traffic-signs-picture-id459381059)
+![3](https://is.alicdn.com/img/pb/312/820/215/1215820312_482.jpg)
+![4](http://media.gettyimages.com/photos/german-traffic-signs-picture-id459381063)
+![5](https://cdn.pixabay.com/photo/2016/06/08/01/41/traffic-sign-1443060__480.jpg)
+![6](http://bicyclegermany.com/Images/Laws/100_1607.jpg)
+![7](https://francetaste.files.wordpress.com/2016/03/speed-reminder.jpg)
+![8](https://thumb1.shutterstock.com/display_pic_with_logo/3869111/362901644/stock-photo-german-speed-limit-sign-km-h-against-blue-sky-362901644.jpg)
+![9](http://media.gettyimages.com/photos/german-traffic-signs-picture-id459381091)
+![10](http://media.gettyimages.com/photos/german-traffic-signs-picture-id459381023)
 
 The fourth image might be difficult to classify because there was fewer training samples
 of its class and it had a  noisy background.
