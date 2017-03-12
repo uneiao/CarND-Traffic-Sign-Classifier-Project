@@ -126,7 +126,7 @@ I used a learning rate of 0.0008 and 100 epochs to train the network,
 feeding the Adamoptimizer(Ada delta gradient descending, providing 
 learning rate decay functionalities) with a batch size of 128 while training.
 That should be enough for the model to return a pleasant result after training.
-The training grew quickly above 99%, and then validation accuracy raised to 95%.
+The training grew quickly above 99%, and then validation accuracy raised to 96%.
 The model got 94% test accuracy very close to validation accuracy, which has met
 my expectation.
 
