@@ -168,10 +168,11 @@ able to read numbers...
 
 Comparing to the previous test set result of 94% accuracy,
 the model perform 24% worse among the captured images.
-It seems that the model was over-fitting. The result also indicated that
-the model was not robust enough against some scaling problems,
-or background noise problems. Maybe it still required a better preprocessing methods
-and some stronger architecture.
+It seems that the model was over-fitting though there the number of captured
+images is too small to get a convincing explanation.
+The result indicated that maybe the model was not robust enough against
+some scaling problems, since I didn’t nicely crop the captured images before I
+threw them to the model.
 
 ####3. Softmax Probabilities
 The code for making predictions on my final model is located in the [17] cell of the Ipython notebook.
