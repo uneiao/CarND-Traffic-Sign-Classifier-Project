@@ -166,6 +166,13 @@ which gives an accuracy of 70%.
 It seemed that the model could not work very well in the reality. Sadly it was less
 able to read numbers...
 
+Comparing to the previous test set result of 94% accuracy,
+the model perform 24% worse among the captured images.
+It seems that the model was over-fitting. The result also indicated that
+the model was not robust enough against some scaling problems,
+or background noise problems. Maybe it still required a better preprocessing methods
+and some stronger architecture.
+
 ####3. Softmax Probabilities
 The code for making predictions on my final model is located in the [17] cell of the Ipython notebook.
 
